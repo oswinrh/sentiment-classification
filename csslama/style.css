@@ -1,0 +1,243 @@
+/**============GENERAL=============**/
+body{
+	font-family: arial, sans-serif;
+	margin: 0px auto;
+	background:#00B0B9;
+}
+
+.container{
+	height:auto;
+	width: 100%;
+	background-color: #00B0B9;
+	padding-top: 5px;
+}
+#container2{
+	position:relative;
+	height:auto;
+	width: 100%;
+	background-color: #fff;
+}
+#container3{
+	padding-top:5px;
+	height:500px;
+	width: 100%;
+	background-color: #fff;
+}
+
+
+.button {
+	background-color: white;
+	border-color: black;
+}
+.button a{
+	text-decoration: none;
+	color: black;
+	font-size: 11pt;
+	font-weight: bold;
+	cursor: pointer;
+}
+input{
+	color: black;
+	font-size: 11pt;
+	font-weight: bold;
+	cursor: pointer;
+}
+button{
+	background-color: white;
+	color: black;
+	font-size: 11pt;
+	font-weight: bold;
+	cursor: pointer;
+	font-weight: bold;
+	border-color: #00B0B9;
+}
+/**============HEADER=============**/
+#header{
+	margin:0px auto;
+	height:95px;
+	width: 960px;
+	background-color: #00B0B9;
+	clear:both;
+}
+.logo{
+	position:relative;
+	top:5px;
+	border:2px;
+	float: left;
+	font-weight: bold;
+}
+.logo a{
+	font-family: calibri;
+	color: white;
+	font-size: 30pt;
+	text-decoration:none;
+	position: relative;
+	left: 80px;
+}
+.logo span{
+	font-size: 20pt;
+	position: relative;
+	top: -18px;
+}
+
+
+
+/**============CONTENT=============**/
+#content{
+	
+	margin: 0px auto;
+	width: 960px;
+	height : auto;
+	clear:both;
+	background:white;
+	padding-top:5px;
+	padding-bottom:20px;
+}
+
+	
+	/**------MENU---------**/
+	#menu{
+		width:200px;
+		position: relative;
+		left:-40px;
+		font-weight: bold;
+	}
+	#menu ul li{
+		list-style-type: none;
+		padding : 10px;
+		border: 1px solid white;
+		cursor: pointer;
+	}
+	#menu ul li:hover {
+		background-color: #00B0B9;
+		border: 1px solid white;
+	}
+	#menu ul li a{
+		text-decoration: none;
+		color: #00B0B9;
+	}
+	#menu ul li:hover a {color:white;}
+	#selected{
+		border: 1px solid white;
+		background-color: #00B0B9;
+		color:white;
+		
+	}
+	
+/**------BERITA---------**/
+
+/**------TABLE---------**/
+		
+	.datatable {
+		border: 1px solid #D6DDE6;
+		border-collapse: collapse;
+		color: grey;
+	}
+	.datatable td {
+		border: 1px solid #828282;
+		padding: 4px;
+		font-size:11pt;
+		/*padding-left: 10px;
+		padding-right: 30px;*/
+		text-align:center;
+	}
+	.datatable th {
+		border: 1px solid #828282;
+		background-color: #BCBCBC;
+		font-weight: bold;
+		text-align:center;
+	}
+	.datatable ul li {
+		list-style:url('picppba/bullet.png');
+		font-size:10pt;
+	}
+
+	.comment textarea{
+	    overflow: hidden;
+	    padding: 0;
+	    resize: none;
+	}
+	
+	/**------SUBMENU---------**/
+	#submenu{
+		color: #747373;
+		text-align: justify;
+	}
+	#submenu img{
+		float: left;
+		height: 250px;
+		width: 400px;
+		margin: 0px 10px 10px 0px;
+	}
+	#contact{
+		color: #747373;
+		text-align:justify;
+		width:500px;
+	}
+	.coinfo{
+		float: left;
+		text-align:justify;
+		width:460px;
+	}
+	#googleMap{
+		position:relative;
+		left:480px;
+		top:-225px;
+		border : 1px solid;
+	}
+	#coadd{
+		position:absolute;
+		top:340px;
+	}
+	#bahasa{
+		color: #747373;
+		text-align:justify;
+		position:relative;
+		padding-bottom:50px;
+	}
+
+
+	
+/**============FOOTER=============**/
+#footer{
+	margin:0px auto;
+	height: 30px;
+	width: 960px;
+	background-color: #00B0B9;
+	margin-bottom: 0px;
+	clear: both;
+}
+#footer a{
+	border:1px solid #00B0B9;
+	position: relative;
+	left:20px;
+	font-family: calibri;
+	color: white;
+	font-size: 10pt
+}
+#footer a:hover{
+	border:1px solid white;
+}
+#footer em{
+	font-family: calibri;
+	color: white;
+	font-size: 10pt
+}
+#footer ul{
+	position: relative;
+	top: 0px;
+	right:25px;
+	float: right;
+	margin: 0px;
+}
+#footer ul li{
+	list-style-type: none;
+	display: inline;
+}
+#footer ul li a{
+	text-decoration: none;
+	font-family: calibri;
+	font-size: 10pt;
+	color: white;
+	padding: 0px 10px;
+}
